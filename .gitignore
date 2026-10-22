@@ -1,0 +1,23 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local database and source dataset
+data/*.duckdb
+data/*.db
+data/*.xlsx
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
